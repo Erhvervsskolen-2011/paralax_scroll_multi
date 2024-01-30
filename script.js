@@ -12,7 +12,7 @@
             // children[i].style.transform = 'translateY(-' + (window.pageYOffset * i / children.lenght) + 'px)';
             
             children[i].style.transform = 
-                'translateY(-' + (window.scrollY * i / children.length) + 'px)';
+                'translateY(-' + (window.pageYOffset * i / children.length) + 'px)';
 
             console.log( children[i].style.transform )
         }
